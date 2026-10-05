@@ -1,18 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/05 15:19:59 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 16:29:34 by hhaider          ###   ########.fr       */
+/*   Created: 2026/10/05 15:45:45 by hhaider           #+#    #+#             */
+/*   Updated: 2026/10/05 15:53:37 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isalpha(int n)
+#include "libft.h"
+
+void    *ft_memset(void *s, int c, size_t n)
 {
-    if ((n >= 65 && n <= 90) || (n >= 97 && n <= 122))
-        return (1);
-    return (0);
+    int i;
+
+    i = 0;
+    while (i < n)
+    {
+        ((unsigned char *)s)[i] = (unsigned char )c;
+        i++;
+    }
+    return (s);
 }

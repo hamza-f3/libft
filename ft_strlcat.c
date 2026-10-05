@@ -1,25 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/05 15:18:18 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 15:55:28 by hhaider          ###   ########.fr       */
+/*   Created: 2026/10/05 16:24:53 by hhaider           #+#    #+#             */
+/*   Updated: 2026/10/05 16:44:12 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-void    *ft_bzero(void *s, size_t n)
+
+size_t  ft_strlcat(char *dest, const char *src,size_t n)
 {
-    int i;
+    size_t  i;
+    size_t  keep;
+    size_t  len;
 
     i = 0;
-    while (i < n)
+    keep = ft_strlen(dest);
+    len = ft_strlen(dest);
+    if(n < len)
+        return(n+ft_strlen(src));
+    while (src[i] && i < (n - keep - 1))
     {
-        ((unsigned char *)s)[i] = 0;
+        dest[len] = src[i];
         i++;
+        len++;
     }
-    return (s);
+    dest[+i] = 0;
+    return(keep + ft_strlen(src));
 }
+
