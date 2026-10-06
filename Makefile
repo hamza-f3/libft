@@ -9,12 +9,13 @@ PART1 = ft_tolower.c ft_toupper.c ft_isprint.c ft_isascii.c ft_isalnum.c \
 PART2 = ft_itoa.c ft_strjoin.c ft_split.c ft_striteri.c ft_strmapi.c \
 		ft_substr.c ft_strtrim.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
 		ft_putnbr_fd.c
-
+BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 
 
 SRC = ${PART1} ${PART2}
 
 OBJS = ${SRC:.c=.o}
+BONUS_OBJS = ${BONUS:.c=.o}
 
 CC = gcc
 RM = rm -f
@@ -29,11 +30,12 @@ $(NAME): ${OBJS}
 
 all:	${NAME}
 
-bonus:	${OBJS} 
-		ar rcs ${NAME} ${OBJS} 
+
+bonus:	${OBJS} ${BONUS_OBJS}
+		ar rcs ${NAME} ${OBJS} ${BONUS_OBJS}
 
 clean:
-		${RM} ${OBJS} 
+		${RM} ${OBJS} ${BONUS_OBJS}
 
 fclean: clean
 		${RM} ${NAME}
