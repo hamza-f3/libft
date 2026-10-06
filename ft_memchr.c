@@ -6,13 +6,13 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:14:13 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/06 09:17:38 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/06 10:29:06 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    *ft_memchr(void *s,int c, size_t n)
+void    *ft_memchr(const void *s,int c, size_t n)
 {
     size_t  i;
 

@@ -6,13 +6,13 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:55:46 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 16:29:42 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/06 10:20:39 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void    ft_memcpy(void *dest, void *src, size_t n)
+void    *ft_memcpy(void *dest, const void *src, size_t n)
 {
     size_t  i;
 

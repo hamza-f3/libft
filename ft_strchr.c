@@ -6,7 +6,7 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 16:46:16 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/06 09:06:28 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/06 10:24:35 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char    *ft_strchr(const char *s, int c)
     i = 0;
     while(s[i])
     {
-        if (s[i] == (unsigned char )c)
-            return((unsigned char *)&s[i]);
+        if (s[i] == (char )c)
+            return((char *)&s[i]);
         i++;
     }
-    if (s[i] == (unsigned char)c)
-        return ((unsigned char *)&s[i]);
+    if (s[i] == (char)c)
+        return ((char *)&s[i]);
     return (NULL);
 }

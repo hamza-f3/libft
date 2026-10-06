@@ -1,35 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/05 16:24:53 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/06 11:29:17 by hhaider          ###   ########.fr       */
+/*   Created: 2026/10/06 10:36:54 by hhaider           #+#    #+#             */
+/*   Updated: 2026/10/06 10:36:57 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t  ft_strlcat(char *dest, const char *src,size_t n)
+void ft_putendl_fd(char *s, int fd)
 {
-    size_t  i;
-    size_t  keep;
-    size_t  len;
-
-    i = 0;
-    keep = ft_strlen(dest);
-    len = ft_strlen(dest);
-    if(n <= len)
-        return(n+ft_strlen(src));
-    while (src[i] && i < n - keep - 1 )
-    {
-        dest[len] = src[i];
-        i++;
-        len++;
-    }
-    dest[len] = 0;
-    return(keep + ft_strlen(src));
+    if (!s)
+        return ;
+    ft_putstr_fd(s, fd);
+    write(fd, "\n", 1);
 }
-

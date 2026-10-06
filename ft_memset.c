@@ -6,7 +6,7 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:45:45 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 15:53:37 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/06 10:29:18 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void    *ft_memset(void *s, int c, size_t n)
 {
-    int i;
+    size_t i;
 
     i = 0;
     while (i < n)
