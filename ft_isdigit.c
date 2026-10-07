@@ -6,13 +6,13 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:40:35 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 15:42:31 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/07 20:49:21 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_isdigit(int n)
+int	ft_isdigit(int n)
 {
-    if (n <= '9' && n >= '0')
-        return (1);
-    return (0);
+	if (n <= '9' && n >= '0')
+		return (1);
+	return (0);
 }
