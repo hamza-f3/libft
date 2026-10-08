@@ -6,7 +6,7 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 22:13:36 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/08 11:24:55 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 11:36:00 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
-
+/*
 int main ()
 {
     t_list *node;
@@ -35,4 +35,4 @@ int main ()
     free(node->content);
     free(node);
 }
-
+*/

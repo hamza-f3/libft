@@ -6,7 +6,7 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 22:28:01 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/08 10:08:51 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 11:36:31 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
+/*
 int main ()
 {
     t_list *head;
@@ -30,4 +31,4 @@ int main ()
     free(head->next);
     free(head->content);
     free(head);
-}
+}*/
