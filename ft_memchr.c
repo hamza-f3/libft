@@ -6,9 +6,12 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:14:13 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:57:40 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:53:16 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function search the memoryblock and return a pointer to the first appearance 
+//of specific character (c)
 
 #include "libft.h"
 

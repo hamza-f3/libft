@@ -6,33 +6,32 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/30 20:43:44 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 14:34:44 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 09:03:52 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//this function searches for the first occurrence of the substring little
+//inside string big till it get at most len of character big
+
 #include "libft.h"
 
-char	*ft_strnstr(const char *b, const char *l, size_t n)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
 	size_t	j;
-	size_t	l_len;
 
 	i = 0;
-	l_len = ft_strlen(l);
-	if (l[i] == '\0')
-		return ((char *)b);
-	if (n == 0)
-		return (0);
-	while (b[i] && (i + l_len <= n))
+	if (!*little)
+		return ((char *)big);
+	while (big[i] && i < len)
 	{
-		if (b[i] == l[0])
+		if (big[i] == little[0])
 		{
 			j = 0;
-			while (l[j] && b[i + j] == l[j])
+			while (little[j] && big[i + j] == little[j] && (i + j) < len)
 				j++;
-			if (l[j] == '\0')
-				return ((char *)&b[i]);
+			if (!little[j])
+				return ((char *)&big[i]);
 		}
 		i++;
 	}

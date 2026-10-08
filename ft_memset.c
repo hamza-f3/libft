@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:45:45 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:59:24 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:15:07 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function fill the memory block with specific value (s)
 
 #include "libft.h"
 

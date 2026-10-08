@@ -6,9 +6,12 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:45:59 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 21:03:41 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 09:07:03 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function duplicates the string by using malloc and copy the string to 
+//the malloc
 
 #include "libft.h"
 

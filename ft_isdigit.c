@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:40:35 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:49:21 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:10:42 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function check if the ascii number is digit if yes return 1
 
 int	ft_isdigit(int n)
 {

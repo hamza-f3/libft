@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 16:19:01 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 21:04:59 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:30:01 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function return the lenghth of the string it try to copy(src length) 
 
 #include "libft.h"
 

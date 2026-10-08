@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:55:46 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:58:31 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:16:53 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this fuction copy the value from memory block src to dest and return the dest 
 
 #include "libft.h"
 

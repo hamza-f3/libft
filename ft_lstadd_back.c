@@ -6,7 +6,7 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 18:11:59 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:52:44 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 11:24:54 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,4 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	last = ft_lstlast(*lst);
 	last->next = new;
 }
+

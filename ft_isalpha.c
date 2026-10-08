@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:19:59 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:48:41 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:10:43 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function check if the ascii is a alphabatic character if yes return 1
 
 int	ft_isalpha(int n)
 {

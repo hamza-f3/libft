@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 12:28:03 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 14:34:35 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:10:41 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function check if the ascii is for alphabatic or digit if yes return 1
 
 #include "libft.h"
 

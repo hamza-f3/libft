@@ -6,9 +6,12 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:06:52 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 21:06:52 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:49:48 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function search the string and return a pointer to the last appearance 
+//of specific character (c)
 
 #include "libft.h"
 

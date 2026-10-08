@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:10:00 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 21:06:36 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:51:37 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function compare two strings up to n by checking there ascii code
 
 #include "libft.h"
 

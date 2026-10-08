@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 23:07:58 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/05 14:35:29 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:31:38 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this funciton return the uppercase of the character if its possible
 
 int	ft_toupper(int c)
 {

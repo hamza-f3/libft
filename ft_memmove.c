@@ -6,9 +6,13 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 16:04:35 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:59:01 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:30:02 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function same as the copy but it handle overlapping  by check the 
+//physical address before copy if the dest > src it copy backward 
+// if dest < src it copy forward
 
 #include "libft.h"
 

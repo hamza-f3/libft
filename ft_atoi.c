@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 09:23:09 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:46:25 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 09:04:37 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function takes the string and turn it to integer
 
 int	ft_atoi(const char *str)
 {

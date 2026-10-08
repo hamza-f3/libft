@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 16:42:36 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 21:07:39 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:31:01 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this function return the ascii for the lowercase character of its possible
 
 int	ft_tolower(int c)
 {

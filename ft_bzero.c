@@ -6,9 +6,11 @@
 /*   By: hhaider <hhaider@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:18:18 by hhaider           #+#    #+#             */
-/*   Updated: 2026/10/07 20:47:38 by hhaider          ###   ########.fr       */
+/*   Updated: 2026/10/08 08:15:08 by hhaider          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//this funciton fill the memory block with zero (we can use memset (0,size))
 
 #include "libft.h"
 
