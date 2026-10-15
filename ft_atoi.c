@@ -38,8 +38,9 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)num * sign);
 }
+/*
 int main()
 {
   printf("%d\n", ft_atoi("  -+42"));
   printf("%d\n", atoi("    -+42"));
-}
+}*/

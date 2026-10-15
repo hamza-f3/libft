@@ -25,3 +25,16 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+/*
+void f(unsigned int i,char *c)
+{
+  if(i % 2)
+  *c = *c - 32;
+}
+int main()
+{
+  char s[] = "hello";
+  ft_striteri(s,f);
+  printf("%s",s);
+
+}*/
