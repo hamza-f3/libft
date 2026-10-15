@@ -12,6 +12,8 @@
 
 //this function takes the string and turn it to integer
 
+#include "libft.h"
+
 int	ft_atoi(const char *str)
 {
 	int		i;
@@ -35,4 +37,9 @@ int	ft_atoi(const char *str)
 		i++;
 	}
 	return ((int)num * sign);
+}
+int main()
+{
+  printf("%d\n", ft_atoi("  -+42"));
+  printf("%d\n", atoi("    -+42"));
 }

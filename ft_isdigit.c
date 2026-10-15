@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 //this function check if the ascii number is digit if yes return 1
+#include "libft.h"
 
 int	ft_isdigit(int n)
 {
@@ -18,3 +19,9 @@ int	ft_isdigit(int n)
 		return (1);
 	return (0);
 }
+/*
+int main ()
+{
+  printf("%d\n" , ft_isdigit(50));
+  printf("%d\n", isdigit(50));
+}*/

@@ -34,3 +34,9 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 	dest[dest_len] = 0;
 	return ((dest_len - i) + src_len);
 }
+/*
+int main ()
+{
+  printf("%zu\n", ft_strlcat("hamza","haider",4));
+  printf("%zu\n", strlcat("hamza","haider",4));
+}*/
