@@ -29,3 +29,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(m, s2, len_s1 + len_s2 + 1);
 	return (m);
 }
+/*
+int main()
+{
+	printf("%s",ft_strjoin("hello", "world"));
+}*/

@@ -24,4 +24,3 @@ int main ()
 {
   ft_putendl_fd("hello",1);
 }*/
-
