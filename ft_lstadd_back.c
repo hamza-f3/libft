@@ -26,3 +26,22 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	last = ft_lstlast(*lst);
 	last->next = new;
 }
+/*
+int main()
+{
+	t_list *head;
+	head = ft_lstnew(ft_strdup("1"));
+	ft_lstadd_back(&head,ft_lstnew(ft_strdup("2")));
+	ft_lstadd_back(&head, ft_lstnew(ft_strdup("3")));
+	printf("%s",(char *)head->content);
+	printf("%s",(char *)head->next->content);
+	printf("%s",(char *)head->next->next->content);
+	while (head)
+	{
+		t_list *temp;
+		temp = head;
+		head = head ->next;
+		free (temp->content);
+		free (temp);
+	}
+}*/

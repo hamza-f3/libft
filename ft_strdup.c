@@ -29,3 +29,9 @@ char	*ft_strdup(const char *s1)
 	ft_memcpy(m, s1, len);
 	return (m);
 }
+/*
+int main ()
+{
+	printf("%s",ft_strdup("hello"));
+	printf("%s",strdup("hello"));
+}*/

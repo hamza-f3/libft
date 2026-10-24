@@ -26,3 +26,11 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+/*
+int main ()
+{
+	char dest[] = "hello";
+	char src[] = "world";
+	ft_memcpy(dest,src, 4);
+	printf("%s",dest);
+}*/

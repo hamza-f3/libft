@@ -11,6 +11,8 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <ctype.h>
+#include <stdio.h>
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
@@ -36,3 +38,38 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+void del (void * content)
+{
+	free (content);
+}
+void *f(void * content)
+{
+	char *str = ft_strdup((char *)content);
+	int i = 0;
+	while (str[i] && str)
+	{
+		if (str[i] >= 'a' && str[i] <= 'z')
+            str[i] -= 32;
+		i++;
+	}
+	return (void *)str;
+}
+int main ()
+{
+	t_list *head;
+	t_list *new;
+	t_list *cur;
+	head = ft_lstnew(ft_strdup("hello"));
+	ft_lstadd_back(&head, ft_lstnew(ft_strdup("jsdfa")));
+	ft_lstadd_back(&head, ft_lstnew(ft_strdup("ajskd")));
+	new = ft_lstmap(head, f, del);
+	cur = new;
+    while (cur)
+    {
+        printf("%s ", (char *)cur->content);
+        cur = cur->next;
+    }
+	ft_lstclear(&head, del);
+	ft_lstclear(&new, del);
+}
+

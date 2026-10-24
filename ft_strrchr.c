@@ -14,6 +14,7 @@
 //of specific character (c)
 
 #include "libft.h"
+#include <iso646.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -26,3 +27,9 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
+/*
+int main ()
+{
+	char s[] = "";
+	printf("%s",ft_strrchr(s,'m'));
+}*/

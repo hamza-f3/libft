@@ -12,9 +12,16 @@
 
 //this function check if the number with in ascii range (0-127) if yes return 1
 
+#include "libft.h"
+
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
 }
+/*
+int main()
+{
+	printf("%d",ft_isascii(42));
+}*/
