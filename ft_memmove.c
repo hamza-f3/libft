@@ -41,3 +41,11 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+/*
+int main ()
+{
+	char dest[] = "helldo";
+	char src[] = "world";
+	ft_memmove(dest, src, 4);
+	printf("%s", dest);
+}*/

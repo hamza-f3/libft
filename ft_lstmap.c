@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <ctype.h>
-#include <stdio.h>
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
@@ -38,6 +36,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+/*
 void del (void * content)
 {
 	free (content);
@@ -72,4 +71,4 @@ int main ()
 	ft_lstclear(&head, del);
 	ft_lstclear(&new, del);
 }
-
+*/

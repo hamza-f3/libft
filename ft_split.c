@@ -80,3 +80,19 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (fill(s, c, m));
 }
+/*
+int main()
+{
+	char **split = ft_split("hi hie hieie hehee hii ii", 'i');
+	int	i = 0;
+	if (split)
+	{
+		while(split[i])
+		{
+			printf("%s",split[i]);
+			free(split[i]);
+			i++;
+		}
+		free(split);
+	}
+}*/

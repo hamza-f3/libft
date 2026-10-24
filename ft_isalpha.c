@@ -13,10 +13,7 @@
 //this function check if the ascii is a alphabatic character if yes return 1
 
 #include "libft.h"
-int main()
-{
 
-}
 int	ft_isalpha(int n)
 {
 	if ((n >= 65 && n <= 90) || (n >= 97 && n <= 122))
