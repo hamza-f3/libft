@@ -31,3 +31,17 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	m[i] = 0;
 	return (m);
 }
+/*
+char f(unsigned int i, char c)
+{
+	if (i % 2 == 0)
+		return c - 32;
+	return c;
+}
+int main ()
+{
+	char *s = "hello world";
+	char *map = ft_strmapi(s,f);
+	printf("%s", map);
+	free(map);
+}*/

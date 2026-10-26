@@ -22,6 +22,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+/*
 void	print(void *contnt)
 {
 	printf("%s \n",(char*)contnt);
@@ -42,4 +43,4 @@ int main ()
 		free(temp->content);
 		free(temp);
 	}
-}
+}*/

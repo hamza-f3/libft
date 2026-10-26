@@ -30,3 +30,10 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
+/*
+#includet main()
+{
+	char *s = "hello world";
+	int c = 'o';
+	printf("%s",ft_strchr(s, c));
+}*/

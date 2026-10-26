@@ -27,3 +27,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 		len--;
 	return (ft_substr(s1, i, len - i));
 }
+/*
+int main ()
+{
+	char *s1 = "xxxxxhello worldxxxxx";
+	char *set = "xxxxx";
+	char *trim = ft_strtrim(s1, set);
+	printf("%s",trim);
+	free(trim);
+}*/

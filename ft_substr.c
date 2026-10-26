@@ -38,3 +38,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (m);
 }
+/*
+int main ()
+{
+	char *sub = ft_substr("hello worldhe fhe", 4, 10);
+	printf("%s",sub);
+	free(sub);
+
+}*/
